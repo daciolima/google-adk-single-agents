@@ -1,1 +1,1 @@
-## Exemplo de Agentes IA usando o Google ADK
+## Exemplo de Agentes IA com Google ADK
