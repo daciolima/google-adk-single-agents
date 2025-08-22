@@ -112,7 +112,7 @@ AgentYahooFinance = Agent(
 
 # Agente único(Raíz)
 root_agent = LlmAgent(
-    name="search_web", # nome do agente deve ser igual ao da pasta
+    name="search_web_finance", # nome do agente deve ser igual ao da pasta
     model="gemini-2.0-flash", # LiteLlm(model=LLM),
     description="Você é orquestrador. Gerencie encaminhando as consultas para o agente apropriado.",
     sub_agents=[AgentDuckSearch, AgentScraper, AgentYahooFinance],
