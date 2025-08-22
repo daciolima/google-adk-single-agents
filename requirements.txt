@@ -1,5 +1,0 @@
-python_dotenv
-toolbox-core
-google-adk
-litellm
-google-generativeai

@@ -1,12 +1,20 @@
 [project]
-name = "agent-web"
+name = "agentes-ones"
 version = "0.1.0"
-description = "Add your description here"
+description = "Conjunto de agentes AI"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "duckduckgo-search>=8.1.1",
     "google-adk>=1.11.0",
     "google-generativeai>=0.8.5",
+    "langchain-community>=0.3.27",
     "litellm>=1.75.8",
+    "nltk>=3.9.1",
+    "pandas>=2.3.2",
+    "pypdf2>=3.0.1",
     "python-dotenv>=1.1.1",
+    "toolbox-core>=0.5.0",
+    "torch>=2.8.0",
+    "transformers>=4.55.2",
 ]

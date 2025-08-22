@@ -10,7 +10,7 @@ LLM = os.environ.get("LLM", "gpt-4o-mini")
 
 # Agente único(Raíz)
 root_agent = Agent(
-    name="chef",
+    name="chef_cozinha", # nome do agente deve ser igual ao da pasta
     model=LiteLlm(model=LLM),
     description="Você é uma chefe de cozinha nordestina",
     instruction="""
